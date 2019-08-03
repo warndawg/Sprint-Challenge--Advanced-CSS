@@ -1,1 +1,16 @@
 // Mixins Here
+.flex-direction-column{
+        flex-direction: column;    
+}
+
+>.flex-direction-column-reverse{
+    flex-direction: column-reverse;
+}
+.walk{
+    @media (max-width: 500px){
+        .flex-direction-column-reverse;
+    }
+}
+
+
+
